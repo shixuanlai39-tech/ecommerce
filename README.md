@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 直接在 VS Code 創建，或用終端機
 echo "# 電商平台
 
@@ -19,3 +20,6 @@ echo "# 電商平台
 
 ## 演示
 [網址]" > README.md
+=======
+# ecommerce
+>>>>>>> 8602a713081ce2fdbd69a8fae3b8d1dfe00790ba
