@@ -1,25 +1,19 @@
 <<<<<<< HEAD
-# 直接在 VS Code 創建，或用終端機
-echo "# 電商平台
 
-## 功能
-- 用戶註冊/登入
-- 商品管理（新增/編輯/刪除）
-- 購物車
-- 忘記密碼
+##網路電商平台(ecommerce)
 
-## 技術棧
-- Spring Boot 3.5.7
-- MySQL 8.0
-- Bootstrap 5
-
-## 安裝
-1. 克隆專案
-2. 設定 MySQL 資料庫
-3. `mvn spring-boot:run`
-
-## 演示
-[網址]" > README.md
-=======
-# ecommerce
->>>>>>> 8602a713081ce2fdbd69a8fae3b8d1dfe00790ba
+功能
+用戶註冊/登入
+商品管理（新增/編輯/刪除）
+購物車購（加入、刪除、數量調整，自動計算總金額）
+忘記密碼（寄送重設密碼信）
+技術棧
+Spring Boot 3.5.7
+MySQL 8.0
+Bootstrap 5
+安裝與啟動步驟（重要！必須先啟動 Redis Server）
+前置需求
+JDK 17 或以上
+Maven 3.8+
+MySQL 8.0
+Redis 6.2+（強制必須！專案使用 Redis 作為 Session 儲存與快取） =======
